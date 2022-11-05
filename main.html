@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="━━━━━ Aria ━━━━━">
+    <meta name="description" content="Aria's personal website.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Aria | Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/aricon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/ara.png">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="app.js"></script>
+    <script src="time.js"></script>
+    <link href="dist/hamburgers.css" rel="stylesheet">
+
+</head>
+<style media="screen"> ::selection { background-color:#000000 ;color:#ffffff; -webkit-text-stroke: 0.5px rgb(255, 255, 255);}</style>
+<body>
+    
+     <!------SIDEBAR------>
+        <button type="button" class="burger" onclick="toggleSidebar()"></button>
+      <!----  <img class="logo" src="images/logo.png"/> -->
+        <aside class="sidebar">
+          <header class="sidebar-header"></header>
+          <nav>
+            <button type="button">
+              <a href="#top"><img src="images/up.png"/></a>
+              <span>Home</span>
+            </button>
+            <button type="button">
+              <a href="#about"><img src="images/about.png" style="scale: 0.8;"></a> 
+              <span>About</span>
+            </button>
+          </nav>
+          <nav>
+              <button type="button">
+                <a href="#contact"><img src="images/telephone.png" style="scale: 0.9;"></a>
+                <span>Contact</span>
+              </button>
+              <button type="button">
+                <a href="#footer"><img src="images/down.png"></a>
+                <span>Footer</span>
+              </button>
+          </nav>      
+        </aside>
+
+     <!------ARIA------>
+     <div class="container">
+        <div class="aria"  id="top"><span>ARIA</span>ARIA<span>ARIAARIA</span></div>
+     </div> 
+
+     <!----------TOP---------->
+      <div class="top fade">
+        <h1>Hi, I'm Aria.<br> I build creative and cool websites!</h1>
+      </div>
+
+      <div class="line-1"></div>
+     <!----------MAIN---------->
+      <div class="container">
+
+            <!----------ABOUT---------->
+            <div class="about fade" id="about">━━ ABOUT</div>
+            
+            <span class="about-text fade">
+              <h1>
+               Hello world! I'm a Web Developer & Graphic Designer based in Morocco.<span class="hidden"><br></span>
+               I have 3 years experience in web developing, I started exploring the<span class="hidden"><br></span>
+               coding world since 2020, although, I'm still learning a lot of new things!<span class="hidden"><br></span>
+               I'm interested in reaching goals, optimizing the time and workflows.<span class="hidden"><br></span> 
+               Time management, optimization, and personal growth are three concepts<span class="hidden"><br></span> 
+               central to everything I do. I prefer to keep me up to date in fields I'm interested in.<span class="hidden"><br></span>
+              </h1>              
+            </span>
+
+            
+            
+            <div class="box" id="phone">
+              <h1><em>// PLAY ME</em></h1>
+              <div class="inner"></div>
+              <div class="popup"></div>
+              <div class="play"><img src="/images/play.png" id="icon"></div>
+              <div class="before"><img src="/images/before.png" id="before"></div>
+              <div class="after"><img src="/images/after.png" id="after"></div>
+              <i class="btn btn1"></i>
+              <i class="btn btn2"></i>
+              <i class="btn btn3"></i>
+              <i class="rightBtn"></i>
+            </div>
+
+            <div class="line-2"></div>
+            <!----------SKILLS---------->
+            <div class="about skill-title fade">SKILLS ━━</div>
+
+            <div class="skill-img fade"><img src="images/skill.png"></div>
+            <div class="myskills fade">  
+                <h1>I'm experienced in most web developement languages, such as HTML, CSS,<span class="hidden"><br></span>
+                  JavaScript & TypeScript. I'm very passionate about Graphic Design, with over<span class="hidden"><br></span>
+                  3 years of developement experience and 5 years of making digital and traditional art.</h1>        
+            </div>
+
+            <div class="line-3"></div>
+
+            <!----------PROJECTS---------->
+            <div class="about project-title fade" id="projects">━<span>━</span><span class="dot">'</span>PROJECTS</div>
+
+                <div class="project-name fade">
+                  <h1>─ A Self Destruction Button.<br><span><strong><em>// CLICK TO REVIEW</em></strong></span></h1>
+                </div>
+                <div class="project-img fade" id="zoom">
+                  <a href="https://ariaiscoding.github.io/selfdestruct/SDB/">
+                  <img src="images/project1.png" alt="Self Destruction Button">
+                  </a>  
+                </div>
+
+                <div class="project-name fade">
+                  <h1>─ A Notes & To-Do list app.<br><span><strong><em>// CLICK TO REVIEW</em></strong></span></h1>
+                </div>
+                <div class="project-img fade" id="zoom">
+                  <a href="https://ariaiscoding.github.io/mynotes/notes/">
+                  <img src="images/project2.png" alt="Notes & To-Do list app">
+                  </a>  
+                </div>
+
+                <div class="project-name fade">
+                  <h1>─ Discord moderation & entertainement bots.<br><span><strong><em>// CLICK TO JOIN</em></strong></span></h1>
+                </div>
+                <div class="project-img fade" id="zoom">
+                  <a href="https://discord.gg/XzV67zyj6T">
+                  <img src="images/project3.png" alt="Discord bots">
+                  </a>  
+                </div>
+
+                <div class="project-name fade">
+                  <h1>─ A photographer's portfolio.<br><span><strong><em>// CLICK TO REVIEW</em></strong></span></h1>
+                </div>
+                <div class="project-img fade" id="zoom">
+                  <a href="images/project4.png">
+                  <img src="images/project4.png" alt="Photography website">
+                  </a>  
+                </div>
+            </div>
+
+            <div class="line-3"></div>
+             <!----------CONTACT---------->
+             <div class="about contact-title fade" id="contact">CONTACT<span class="dot">'</span>━<span>━</span></div>
+                <div class="contact-text fade">
+                  <span>Want to get in touch? Contact me!</span>
+                  <h1><em><strong>contactaria00@gmail.com</strong></em></h1>
+                </div>
+
+                <div class = "social-icons ">
+                  <ul>
+                      <li>
+                          <a href = "https://discord.gg/XzV67zyj6T"><i class="fa-brands fa-discord"></i></a>
+                      </li>
+                      <li>
+                          <a href = "https://github.com/ariaiscoding"><i class="fa-brands fa-github"></i></a>
+                      </li>
+                      <li>
+                          <a href = "https://instagram.com/sleepyaria_"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                          <a href = "https://dribbble.com/ItsAria"><i class="fa-solid fa-basketball"></i></a>
+                      </li>
+                  </ul>
+                </div>
+
+              <div class="line-4"></div>
+
+              <footer id="footer">
+                <h1>© Aria. 2022 - All Rights Reserved.</h1>
+              </footer>
+       
+      </div>
+
+        <script type="text/javascript">
+          const toggleSidebar = () => document.body.classList.toggle("open");
+        </script>
+        <script src="https://kit.fontawesome.com/a423b9f0db.js" crossorigin="anonymous"></script>
+        <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+       <!-----------------MUSIC------------------>
+          <audio id="mySong" loop>     
+           <source src="https://cdn.glitch.me/55edba35-d6ad-4fc1-9b45-9e6e9c28908d/Fire%20Again%20Perfect%20Loop%201%20Hour%20-%20Valorant%20Champions%202022%20(mp3cut.net).mp3?v=1666125595420" type="audio/mp3">  
+          </audio>
+         
+          <audio id="pilots" loop>     
+           <source src="music/21p.mp3" type="audio/mp3">  
+          </audio>
+
+          <audio id="ohw" loop>     
+            <source src="music/ohwonder.mp3" type="audio/mp3">  
+          </audio>
+       
+         <script>   
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            icon.onclick = function (){
+              if(mySong.paused){
+                mySong.play();
+                icon.src = "images/pause.png";
+              }else{
+                mySong.pause();
+                icon.src = "images/play.png";
+              }
+            }     
+
+            var pilots = document.getElementById("pilots");
+            var icon2 = document.getElementById("before");
+            icon2.onclick = function (){
+              if(pilots.paused){
+                pilots.play();
+                icon2.src="images/before.png"
+              }else{
+                pilots.pause();
+                icon2.src = "images/before.png";
+              }
+            }
+
+            var ohw = document.getElementById("ohw");
+            var icon3 = document.getElementById("after");
+            icon3.onclick = function (){
+              if(ohw.paused){
+                ohw.play();
+                icon3.src="images/after.png"
+              }else{
+                ohw.pause();
+                icon3.src = "images/after.png";
+              }
+            }
+          </script>            
+</body>
+</html>
